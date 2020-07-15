@@ -1,4 +1,8 @@
 package lt.verbus;
 
-public class Coniferous extends Tree {
+public abstract class Coniferous implements Tree {
+    @Override
+    public void describe() {
+        System.out.println("   - " + this.toString() + " has spikes.");
+    }
 }

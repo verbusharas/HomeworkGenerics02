@@ -1,4 +1,8 @@
 package lt.verbus;
 
-public class Deciduous extends Tree {
+public abstract class Deciduous implements Tree {
+    @Override
+    public void describe() {
+        System.out.println("   - " + this.toString() + " has leaves.");
+    }
 }

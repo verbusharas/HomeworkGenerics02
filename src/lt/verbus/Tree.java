@@ -1,4 +1,5 @@
 package lt.verbus;
 
-public class Tree {
+public interface Tree {
+    void describe();
 }
